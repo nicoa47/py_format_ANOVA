@@ -1,0 +1,17 @@
+how to run:
+
+1. extract the files from the attached .zip into a separate folder
+
+2. edit the "replace_factor_names.csv" (in Excel or text editor):
+	left hand side: factor names used in SPSS
+	right hand side: factor names you want to use in your paper
+
+	(it is important that all factors from your analyses are in this file!)
+
+3. export all SPSS ANOVA result tables "Tests der Innersubjekteffekte" as .txt files
+	into the unzipped folder (right-click on table and select "Exportieren...")
+
+4. right-click into the folder, select "Eingabeaufforderung hier öffnen"
+
+5. in the window that opened up, type "python correct_results_format.py"
+	and press Enter
